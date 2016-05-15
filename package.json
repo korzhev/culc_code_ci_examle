@@ -1,0 +1,30 @@
+{
+  "name": "culc_code_ci_examle",
+  "description": "culc_code_ci_examle",
+  "version": "1.0.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.10.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
+  },
+  "main": ".lib/culculator.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*; true",
+    "lint": "./node_modules/eslint/bin/eslint.js ./lib/culculator.js; true",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/korzhev/culc_code_ci_examle.git"
+  },
+  "author": "Vladimir Korzhev <amv12dbr9@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/korzhev/culc_code_ci_examle/issues"
+  }
+}
