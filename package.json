@@ -1,6 +1,6 @@
 {
   "name": "culc_code_ci_examle",
-  "description": "culc_code_ci_examle",
+  "description": "Пример использования тестов, линтеров, покрытия и непрерывной интеграции",
   "version": "1.0.0",
   "devDependencies": {
     "chai": "^3.5.0",
