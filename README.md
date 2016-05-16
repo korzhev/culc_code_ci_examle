@@ -6,3 +6,4 @@
 Качество кода:     [![Code Climate](https://codeclimate.com/github/korzhev/culc_code_ci_examle/badges/gpa.svg)](https://codeclimate.com/github/korzhev/culc_code_ci_examle)
 
 Выявленых проблем: [![Issue Count](https://codeclimate.com/github/korzhev/culc_code_ci_examle/badges/issue_count.svg)](https://codeclimate.com/github/korzhev/culc_code_ci_examle)
+
