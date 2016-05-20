@@ -13,9 +13,10 @@
   },
   "main": ".lib/culculator.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/_mocha",
-    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*; true",
-    "lint": "./node_modules/eslint/bin/eslint.js ./lib/culculator.js; true",
+    "test": "node --use-strict ./node_modules/mocha/bin/_mocha ",
+    "coverage": "node --use-strict ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*",
+    "coverage_silenced": "node --use-strict ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*; true",
+    "lint": "node --use-strict ./node_modules/eslint/bin/eslint.js ./lib/culculator.js; true",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
