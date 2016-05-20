@@ -2,7 +2,7 @@ engines:
   fixme:
     enabled: true
   eslint:
-    enabled: true
+    enabled: false
   nodesecurity:
     enabled: true
   markdownlint:
