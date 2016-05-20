@@ -12,3 +12,6 @@ engines:
     config:
       languages:
         - javascript
+ratings:
+  paths: []
+exclude_paths: []
