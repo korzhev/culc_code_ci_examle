@@ -4,7 +4,7 @@ engines:
   eslint:
     enabled: false
   nodesecurity:
-    enabled: true
+    enabled: false
   markdownlint:
     enabled: true
   duplication:
