@@ -7,5 +7,4 @@
 
 Выявленых проблем: [![Issue Count](https://codeclimate.com/github/korzhev/culc_code_ci_examle/badges/issue_count.svg)](https://codeclimate.com/github/korzhev/culc_code_ci_examle)
 
-Video presentation: [![code AWESOME](http://img.youtube.com/vi/2WgyMS5OaRw/0.jpg)](https://www.youtube.com/watch?v=2WgyMS5OaRw "code AWESOME")
 
